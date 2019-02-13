@@ -28,6 +28,7 @@ class SolicitudController extends Controller
                 $image    = $request->file('photo');
                 $name = 'RENAP_' .time(). '.' . $image->getClientOriginalExtension();
                 $path = public_path().'/img/profile/';
+                $ruta = $path.$name;
                 $image->move($path,$name);
             }
             $user = User::Create([
@@ -38,7 +39,7 @@ class SolicitudController extends Controller
                 'municipality' => $request -> input('municipality'),
                 'address' => $request -> input('address'),
                 'phone' => $request -> input('phone'),
-                'photo' => $name,
+                'photo' => $ruta,
                 'email' => $request -> input('email'),
                 'password' => bcrypt($password),
                 'dpi' => $dpi,

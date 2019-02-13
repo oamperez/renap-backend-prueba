@@ -21,7 +21,7 @@
 			<div class="card-body">
 				<div class="row">
 					<div class="col-md-3 text-center align-self-center">
-						<img src="/img/profile/{{Auth::user()->photo}}" style="width: 100%;">
+						<img src="{{Auth::user()->photo}}" style="width: 100%;">
 					</div>
 					<div class="col-md-9 align-self-center">
 						<p class="card-text mt-4 mt-md-0"><strong>CUI: </strong>{{Auth::user()->dpi}}</p>

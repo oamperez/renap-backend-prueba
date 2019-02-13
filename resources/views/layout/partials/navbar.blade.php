@@ -11,7 +11,7 @@
                 @endif
                 <li class="nav-item dropdown">
                     <a class="nav-link" href="#" id="options" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      <img src="/img/profile/{{Auth::user()->photo}}" style="width: 30px; height: 30px; border-radius: 50%;">
+                      <img src="{{Auth::user()->photo}}" style="width: 30px; height: 30px; border-radius: 50%;">
                     </a>
                     <div class="dropdown-menu dropdown-menu-md-right" aria-labelledby="options">
                       <h6 class="dropdown-header" style="cursor: default;">{{Auth::user()->first_name }} {{Auth::user()->last_name}}</h6>

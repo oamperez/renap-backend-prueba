@@ -21,7 +21,7 @@
 			@else
 			<div class="row">
 				<div class="col-md-3 text-center align-self-center">
-					<img src="/img/profile/{!! $solicitud->user->photo !!}" style="width: 100%;">
+					<img src="{!! $solicitud->user->photo !!}" style="width: 100%;">
 				</div>
 				<div class="col-md-9">
 					<p class="card-text"><strong>CUI: </strong>{{$solicitud->user->dpi}}</p>
