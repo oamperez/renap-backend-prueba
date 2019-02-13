@@ -16,7 +16,7 @@ class SolicitudRequest extends FormRequest
             'first_name' => 'required',
             'last_name' => 'required',
             'birthdate' => 'required',
-            'Department' => 'required',
+            'department' => 'required',
             'municipality' => 'required',
             'address' => 'required',
             'phone' => 'required',

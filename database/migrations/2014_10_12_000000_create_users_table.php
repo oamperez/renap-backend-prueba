@@ -18,7 +18,7 @@ class CreateUsersTable extends Migration
             $table->string('municipality');
             $table->string('address');
             $table->string('phone');
-            $table->string('photo')->default('default.png');
+            $table->string('photo')->default('/img/profile/default.png');
             $table->string('email')->unique();
             $table->string('password');
             $table->string('dpi')->unique();

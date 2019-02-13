@@ -20,7 +20,7 @@
 	            </div>
 	            <div class="form-group col-md-6">
 	                <label for="" class="font-weight-bold">Departamento</label>
-	                <input type="text" class="form-control" placeholder="Departamento" id="department" name="Department">
+	                <input type="text" class="form-control" placeholder="Departamento" id="department" name="department">
 	            </div>
 	            <div class="form-group col-md-6">
 	                <label for="" class="font-weight-bold">Municipio</label>
